@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    border-box: box-sizing;
+}
+
+
+
