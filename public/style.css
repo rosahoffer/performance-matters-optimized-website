@@ -61,5 +61,44 @@ p{
     line-height: 1.6rem;
 }
 
+/* HOME-PAGE */
 
+.intro-contain{
+    padding: 3rem;
+}
 
+.intro-contain a{
+    background-color: var(--primary);
+    color: white;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.new-plants-contain{
+    padding: 3rem;
+}
+
+.new-plants-contain h3{
+    text-align: center;
+}
+
+.new-plants-contain a{
+    background-color: var(--secondary);
+    color: white;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.about-contain{
+    padding: 3rem;
+}
+
+.about-contain h3{
+    text-align: center;
+}
+
+.about-contain p{
+    text-align: center;
+}
