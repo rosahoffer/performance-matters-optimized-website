@@ -7,6 +7,9 @@
     --secondary: #F26F21;
     --tertiary: #F6F7F9;
     --p-color: #6A6A6A;
+
+    /*FONT SIZES*/
+    --p-fontsize: 16px;
 }
 
 html{
@@ -35,7 +38,7 @@ h2{
     font-size: 2.2rem;
     line-height: 2.2rem;
  }
- 
+
 h3{
     font-family: 'Murecho', sans-serif;
     color: var(--primary);
@@ -61,7 +64,7 @@ p{
     line-height: 1.6rem;
 }
 
-/* HOME-PAGE */
+/* --------------------------  HOME-PAGE --------------------------  */
 
 .intro-contain{
     padding: 3rem;
@@ -101,4 +104,37 @@ p{
 
 .about-contain p{
     text-align: center;
+}
+
+/* -------------------------- STEKJES PAGE --------------------------  */
+.main-stekjes-ejs{
+    background-image: url("/assets/swap-je-stek-jongen.png");
+    background-repeat: no-repeat;
+    background-size: 170%;
+}
+
+/*SECTION 1 INTRO STEKJES */
+#intro-swap-stek{
+    height: 500px;
+}
+
+#intro-swap-stek h1  {
+    padding-left: 0.5em;
+    width: 200px;
+}
+
+#intro-swap-stek p {
+    padding-top: 1em;
+    padding-left: 1.2em;
+    width: 200px;
+    font-size: var(--p-fontsize);
+}
+
+/* SECTION 2 BESCHIKBARE STEKJES */
+#available-stekjes h2 {
+    padding-left: 0.5em;
+}
+
+#available-stekjes p {
+    padding-left: 1.2em;
 }

@@ -28,14 +28,14 @@ server.get('/', async function (req, res) {
     res.render('index', data)
 })
 
-// Route voor evenementen page
-server.get('/evenementen', (request, response) => {
-    response.render('evenementen')
-})
-
 // Route voor de stekjes page
 server.get('/stekjes', (request, response) => {
     response.render('stekjes')
+})
+
+// Route voor evenementen page
+server.get('/evenementen', (request, response) => {
+    response.render('evenementen')
 })
 
 // Route voor de contact page
