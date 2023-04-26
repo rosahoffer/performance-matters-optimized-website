@@ -28,14 +28,19 @@ server.get('/', async function (req, res) {
     res.render('index', data)
 })
 
-// Route voor admin page
-server.get('/admin', (request, response) => {
-    response.render('admin')
+// Route voor evenementen page
+server.get('/evenementen', (request, response) => {
+    response.render('evenementen')
 })
 
-// Route voor de workshops page
-server.get('/workshops', (request, response) => {
-    response.render('workshops')
+// Route voor de stekjes page
+server.get('/stekjes', (request, response) => {
+    response.render('stekjes')
+})
+
+// Route voor de contact page
+server.get('/contact', (request, response) => {
+    response.render('contact')
 })
 
 // De .get()-methode wordt gebruikt om een route pad te definiëren.
