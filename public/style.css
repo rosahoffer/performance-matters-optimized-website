@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
- }
+}
 
 :root {
     --primary: #4E7141;
@@ -12,11 +12,11 @@
     --p-fontsize: 16px;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
@@ -25,52 +25,52 @@ body{
     color: var(--p-color);
 }
 
-h1{
+h1 {
     font-family: 'Murecho', sans-serif;
     color: var(--primary);
     font-size: 2.2rem;
     line-height: 2.2rem;
 }
 
-h2{
+h2 {
     font-family: 'Murecho', sans-serif;
     color: var(--primary);
     font-size: 2.2rem;
     line-height: 2.2rem;
- }
+}
 
-h3{
+h3 {
     font-family: 'Murecho', sans-serif;
     color: var(--primary);
     font-size: 1.9rem;
     line-height: 1.9rem;
 }
 
-h4{
+h4 {
     color: var(--p-color);
     text-transform: uppercase;
     letter-spacing: 10px;
     font-size: 1.3rem;
 }
 
-h5{
+h5 {
     font-size: 1rem;
     line-height: 1.3rem;
     font-weight: 900;
 }
 
-p{
+p {
     font-size: 1rem;
     line-height: 1.6rem;
 }
 
 /* --------------------------  HOME-PAGE --------------------------  */
 
-.intro-contain{
+.intro-contain {
     padding: 3rem;
 }
 
-.intro-contain a{
+.intro-contain a {
     background-color: var(--primary);
     color: white;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -78,15 +78,15 @@ p{
     text-decoration: none;
 }
 
-.new-plants-contain{
+.new-plants-contain {
     padding: 3rem;
 }
 
-.new-plants-contain h3{
+.new-plants-contain h3 {
     text-align: center;
 }
 
-.new-plants-contain a{
+.new-plants-contain a {
     background-color: var(--secondary);
     color: white;
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -94,31 +94,31 @@ p{
     text-decoration: none;
 }
 
-.about-contain{
+.about-contain {
     padding: 3rem;
 }
 
-.about-contain h3{
+.about-contain h3 {
     text-align: center;
 }
 
-.about-contain p{
+.about-contain p {
     text-align: center;
 }
 
 /* -------------------------- STEKJES PAGE --------------------------  */
-.main-stekjes-ejs{
+.main-stekjes-ejs {
     background-image: url("/assets/swap-je-stek-jongen.png");
     background-repeat: no-repeat;
     background-size: 170%;
 }
 
 /*SECTION 1 INTRO STEKJES */
-#intro-swap-stek{
+#intro-swap-stek {
     height: 500px;
 }
 
-#intro-swap-stek h1  {
+#intro-swap-stek h1 {
     padding-left: 0.5em;
     width: 200px;
 }
@@ -138,4 +138,40 @@ p{
 #available-stekjes p {
     padding-left: 1.2em;
     padding-right: 0.8em;
+    padding-bottom: 3em;
 }
+
+.flex-wrapper-cards-stek-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-wrapper-stekjes-stek-page img {
+    width: 15rem;
+    height: 18rem;
+    border-radius: 5px;
+    margin-bottom: 3em;
+}
+
+.blur-container p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: 0.8s;
+    color: black;
+}
+
+.flex-wrapper-stekjes-stek-page:hover img{
+    filter: blur(1px) brightness(0.5);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.flex-wrapper-stekjes-stek-page:hover p {
+    opacity: 1;
+}
+

@@ -24,14 +24,17 @@
             locatie Buurtcampus Oost. </p>
 
         <% stekjes.forEach(stekje => { %>
-            <div class="flex-wrapper-cards">
-                <div class="flex-wrapper-stekjes">
+            <div class="flex-wrapper-cards-stek-page">
+                <div class="flex-wrapper-stekjes-stek-page">
                     <% if (stekje.fotos[0]) { %>
                         <img src="<%= stekje.fotos[0].original%>" width="<%= stekje.fotos[0].width%>" height="<%= stekje.fotos[0].height%>">
                     <% }else{ %>
                         <img src="/assets/default-stekje.jpg">
                     <% } %>
-                    <h4> <%= stekje.naam %> </h4>
+
+                        <div class="blur-container">
+                        <p> <%= stekje.naam %> </p>
+                        </div>
                 </div>
             </div>
         <% }) %>
