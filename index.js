@@ -29,8 +29,17 @@ server.get('/', async function (req, res) {
 })
 
 // Route voor de stekjes page
-server.get('/stekjes', (request, response) => {
-    response.render('stekjes')
+server.get('/stek', async function (req, res) {
+
+    const baseUrl = "https://api.buurtcampus-oost.fdnd.nl/api/v1"
+    const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes')
+
+    // Er wordt een fetch verzoek gestuurd naar de opgegeven url.
+    // Zodra er een respons is van de fetch wordt deze in JSON-formaat omgezet door de .json() methode te gebruiken.
+    // De resulterende JSON-gegevens worden opgeslagen in de variabele data met behulp van de const keyword.
+    // Vervolgens wordt de index pagina gerenderd met behulp van de res.render functie, waarbij de data variabele wordt doorgegeven als een parameter.
+    const data = await fetch(url).then((response) => response.json())
+    res.render('stek', data)
 })
 
 // Route voor evenementen page

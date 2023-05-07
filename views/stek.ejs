@@ -13,7 +13,6 @@
 <!--        </svg>-->
         <p> Heb jij een of meerdere plantenstekjes over en zou je die graag willen <span>ruilen</span> voor een nieuw
             plantje? Bekijk hieronder ons aanbod.</p>
-
     </section>
 
     <!-- SECTION BESCHIKBARE STEKJES -->
@@ -24,8 +23,24 @@
             beschikbaar stellen voor andere liefhebbers. Dit zijn de stekjes die op dit moment beschikbaar zijn op de
             locatie Buurtcampus Oost. </p>
 
+        <% stekjes.forEach(stekje => { %>
+            <div class="flex-wrapper-cards">
+                <div class="flex-wrapper-stekjes">
+                    <% if (stekje.fotos[0]) { %>
+                        <img src="<%= stekje.fotos[0].original%>" width="<%= stekje.fotos[0].width%>" height="<%= stekje.fotos[0].height%>">
+                    <% }else{ %>
+                        <img src="/assets/default-stekje.jpg">
+                    <% } %>
+                    <h4> <%= stekje.naam %> </h4>
+                </div>
+            </div>
+        <% }) %>
+
     </section>
+
+
 
 </main>
 </body>
 <%- include('./partials/foot') %>
+
