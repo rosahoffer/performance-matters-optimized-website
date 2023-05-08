@@ -87,6 +87,7 @@ nav img {
     /* clip-path: circle(25px at calc(0% + 45px) 45px);*/
     clip-path: circle(0px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
+    z-index: 1;
 }
 #active:checked ~ .wrapper{
     clip-path: circle(75%);
@@ -190,7 +191,9 @@ input[type="checkbox"]{
 
 .intro-contain svg{
     position: absolute;
+    width: 0.8rem;
     left: 1rem;
+
 }
 
 .intro-contain h5{
