@@ -258,6 +258,13 @@ input[type="checkbox"]{
     background-size: 170%;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main-stekjes-ejs  {
+        background-size: 100%;
+        background-position-x: 130px;
+    }
+}
+
 /*SECTION 1 INTRO STEKJES */
 #intro-swap-stek {
     height: 500px;
@@ -282,7 +289,18 @@ input[type="checkbox"]{
     font-size: var(--p-fontsize);
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    #intro-swap-stek p  {
+        width: 18rem;
+    }
+}
+
 /* SECTION 2 BESCHIKBARE STEKJES */
+#available-stekjes {
+    background-color: white;
+   padding-top: 7rem;
+}
+
 #available-stekjes h2 {
     margin-left: 3rem;
     width: 200px;
@@ -299,6 +317,7 @@ input[type="checkbox"]{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .flex-wrapper-stekjes-stek-page img {
@@ -311,6 +330,35 @@ input[type="checkbox"]{
     font-size: var(--p-fontsize);
     text-align: center;
     margin-bottom: 3rem;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .flex-wrapper-cards-stek-page{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .flex-wrapper-stekjes-stek-page{
+        flex-basis: 50%;
+        padding: 30px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    #available-stekjes h2  {
+        width: 25rem;
+    }
+
+    #available-stekjes p {
+        width: 35rem;
+    }
 }
 
 /* DARK BLUR DESKTOP */
