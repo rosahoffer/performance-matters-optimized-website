@@ -178,11 +178,11 @@ input[type="checkbox"]{
 /* --------------------------  HOME-PAGE --------------------------  */
 
 .intro-contain {
-    padding: 3rem;
-    background-image: url("/assets/bg-homepage.jpg");
+    padding: 3rem 10rem 9rem 3rem;
+    background-image: url("/assets/bg-homepage.png");
     background-repeat: no-repeat;
-    background-size: 140%;
-    padding-right: 10rem;
+    background-size: 100%;
+    background-color: var(--background-color);
 }
 
 .intro-contain svg{
