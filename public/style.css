@@ -76,6 +76,7 @@ nav img {
     margin-left: 3rem;
 }
 
+/* SECOND CIRCLE*/
 .wrapper{
     position: absolute;
     top: 0;
@@ -89,9 +90,12 @@ nav img {
     transition: all 0.3s ease-in-out;
     z-index: 1;
 }
+
 #active:checked ~ .wrapper{
     clip-path: circle(75%);
 }
+
+/* FIRST CIRCLE */
 .menu-btn{
     position: absolute;
     z-index: 2;
@@ -110,13 +114,6 @@ nav img {
     outline: solid 2px white;
     transition: all 0.3s ease-in-out;
 }
-#active:checked ~ .menu-btn{
-    /*background: black;*/
-    /*color: black;*/
-}
-#active:checked ~ .menu-btn i:before{
-    content:"✖️";
-}
 
 .wrapper ul{
     position: absolute;
@@ -125,11 +122,12 @@ nav img {
     transform: translate(-50%, -50%);
     list-style: none;
     text-align: center;
-
 }
+
 .wrapper ul li{
     margin: 15px 0;
 }
+
 .wrapper ul li a{
     text-decoration: none;
     font-size: 1rem;
@@ -138,47 +136,10 @@ nav img {
     line-height: 50px;
     transition: all 0.3s ease;
 }
-.wrapper ul li a:after{
-    position: absolute;
-    content: "";
-    background: #fff;
-    width: 100%;
-    height: 50px;
-    left: 0;
-    border-radius: 50px;
-    transform: scaleY(0);
-    z-index: -1;
-    transition: transform 0.3s ease;
-}
-.wrapper ul li a:hover:after{
-    transform: scaleY(1);
-}
-.wrapper ul li a:hover{
-    color: black;
-}
 
 input[type="checkbox"]{
     display: none;
 }
-
-/*.content{*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    transform: translate(-50%, -50%);*/
-/*    z-index: -1;*/
-/*    text-align: center;*/
-/*    width: 100%;*/
-/*    color: #202020;*/
-/*}*/
-/*.content .title{*/
-/*    font-size: 40px;*/
-/*    font-weight: 700;*/
-/*}*/
-/*.content p{*/
-/*    font-size: 35px;*/
-/*    font-weight: 600;*/
-/*}*/
 
 /* --------------------------  HOME-PAGE --------------------------  */
 .intro-contain {
@@ -193,7 +154,6 @@ input[type="checkbox"]{
     position: absolute;
     width: 0.8rem;
     left: 1rem;
-
 }
 
 .intro-contain h5{
@@ -307,6 +267,12 @@ input[type="checkbox"]{
 #intro-swap-stek h1 {
     margin-left: 3rem;
     width: 200px;
+}
+
+#intro-swap-stek svg {
+    position: absolute;
+    width: 0.8rem;
+    left: 1rem;
 }
 
 #intro-swap-stek p {
