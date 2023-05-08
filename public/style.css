@@ -66,10 +66,14 @@ p {
 }
 
 /* -------------------------- NAV BAR --------------------------  */
+nav {
+    background-color: var(--background-color);
+}
+
 nav img {
     width: 8rem;
     margin-top: 2em;
-    margin-left: 1.7em;
+    margin-left: 3rem;
 }
 
 .wrapper{
@@ -176,7 +180,6 @@ input[type="checkbox"]{
 /*}*/
 
 /* --------------------------  HOME-PAGE --------------------------  */
-
 .intro-contain {
     padding: 3rem 10rem 9rem 3rem;
     background-image: url("/assets/bg-homepage.png");
@@ -282,6 +285,10 @@ input[type="checkbox"]{
 }
 
 /* -------------------------- STEKJES PAGE --------------------------  */
+.body-stekjes{
+    background-color: var(--background-color);
+}
+
 .main-stekjes-ejs {
     background-image: url("/assets/swap-je-stek-jongen.png");
     background-repeat: no-repeat;
@@ -291,31 +298,31 @@ input[type="checkbox"]{
 /*SECTION 1 INTRO STEKJES */
 #intro-swap-stek {
     height: 500px;
-    margin-top: 7em;
+    margin-top: 7rem;
 }
 
 #intro-swap-stek h1 {
-    margin-left: 0.7em;
+    margin-left: 3rem;
     width: 200px;
 }
 
 #intro-swap-stek p {
-    margin-top: 1em;
-    margin-left: 1.7em;
+    margin-top: 1rem;
+    margin-left: 3rem;
     width: 200px;
     font-size: var(--p-fontsize);
 }
 
 /* SECTION 2 BESCHIKBARE STEKJES */
 #available-stekjes h2 {
-    margin-left: 0.7em;
+    margin-left: 3rem;
     width: 200px;
 }
 
-#available-stekjes p {
-    margin-left: 1.7em;
-    margin-right: 0.8em;
-    margin-bottom: 3em;
+.intro-p-available-stekjes {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
 }
 
 .flex-wrapper-cards-stek-page {
@@ -329,15 +336,12 @@ input[type="checkbox"]{
     width: 15rem;
     height: 18rem;
     border-radius: 5px;
-    margin-bottom: 3em;
 }
 
 .blur-container p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.8rem;
+    font-size: var(--p-fontsize);
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 /* DARK BLUR DESKTOP */
