@@ -20,6 +20,21 @@
         <!-- forEach geprobeerd, maar kreeg error, dus even overgeslagen -->
         <a href="/stek">Bekijk Meer</a>
 
+        <% stekjes.forEach(stekje => { %>
+            <div class="flex-wrapper-cards-stek">
+                <div class="flex-wrapper-stekjes-stek">
+                    <% if (stekje.fotos[0]) { %>
+                        <img src="<%= stekje.fotos[0].original%>" width="<%= stekje.fotos[0].width%>" height="<%= stekje.fotos[0].height%>">
+                    <% }else{ %>
+                        <img src="/assets/default-stekje.jpg">
+                    <% } %>
+
+
+                        <p> <%= stekje.naam %> </p>
+
+                </div>
+            </div>
+        <% }) %>
     </section>
 
 <!-- Over PlantSwap Container -->

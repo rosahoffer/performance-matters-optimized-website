@@ -18,7 +18,7 @@ server.use(express.urlencoded({extended: true}))
 server.get('/', async function (req, res) {
 
     const baseUrl = "https://api.buurtcampus-oost.fdnd.nl/api/v1"
-    const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes')
+    const url = ('https://api.buurtcampus-oost.fdnd.nl/api/v1/stekjes?first=3')
 
     // Er wordt een fetch verzoek gestuurd naar de opgegeven url.
     // Zodra er een respons is van de fetch wordt deze in JSON-formaat omgezet door de .json() methode te gebruiken.
