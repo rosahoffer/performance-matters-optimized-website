@@ -382,3 +382,19 @@ input[type="checkbox"]{
 .intro-contact-contain img{
     width: 80%;
 }
+
+.contact-us-contain{
+    padding: 3rem;
+    text-align: center;
+}
+
+.contact-us-contain a{
+    color: var(--p-color);
+    font-weight: bold;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
