@@ -7,6 +7,7 @@
     --secondary: #F26F21;
     --tertiary: #F6F7F9;
     --p-color: #6A6A6A;
+    --background-color: #F6F7F9;
 
     /*FONT SIZES*/
     --p-fontsize: 16px;
@@ -68,34 +69,94 @@ p {
 
 .intro-contain {
     padding: 3rem;
+    background-image: url("/assets/bg-homepage.jpg");
+    background-repeat: no-repeat;
+    background-size: 140%;
+    padding-right: 10rem;
+}
+
+.intro-contain svg{
+    position: absolute;
+    left: 1rem;
+}
+
+.intro-contain h5{
+    max-width: 15rem;
+}
+
+.intro-contain p{
+    padding-bottom: 1rem;
 }
 
 .intro-contain a {
     background-color: var(--primary);
     color: white;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
     border-radius: 25px;
+    border: 2px solid var(--primary);
     text-decoration: none;
 }
 
+.intro-contain a:hover {
+    background-color: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    transition: 0.5s;
+}
+
 .new-plants-contain {
-    padding: 3rem;
+    padding-bottom: 5rem;
 }
 
 .new-plants-contain h3 {
+    padding: 3rem;
     text-align: center;
 }
 
 .new-plants-contain a {
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+    margin: 0 auto;
     background-color: var(--secondary);
     color: white;
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    padding: 0.3rem 0 0.3rem 0;
     border-radius: 25px;
+    border: 2px solid var(--secondary);
     text-decoration: none;
+}
+
+.new-plants-contain a:hover {
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    transition: 0.5s;
+}
+
+.flex-wrapper-cards-stek{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-wrapper-stekjes-stek img {
+    width: 15rem;
+    height: 18rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.flex-wrapper-stekjes-stek p{
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 .about-contain {
     padding: 3rem;
+    background-color: var(--background-color);
 }
 
 .about-contain h3 {
@@ -104,6 +165,10 @@ p {
 
 .about-contain p {
     text-align: center;
+}
+
+.about-contain img {
+    width: 100%;
 }
 
 /* -------------------------- STEKJES PAGE --------------------------  */
@@ -176,3 +241,19 @@ p {
 /*    opacity: 1;*/
 /*}*/
 
+/* -------------------------- CONTACT PAGE --------------------------  */
+
+
+.intro-contact-contain {
+    padding: 3rem 3rem 0rem 3rem;
+    background-color: var(--background-color);
+}
+
+.intro-contact-contain svg{
+    position: absolute;
+    left: 1rem;
+}
+
+.intro-contact-contain img{
+    width: 80%;
+}

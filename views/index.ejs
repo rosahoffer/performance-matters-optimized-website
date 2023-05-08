@@ -10,16 +10,13 @@
             <path d="M16.5 6.90193C18.5 8.05663 18.5 10.9434 16.5 12.0981L5.25 18.5933C3.25 19.748 0.750001 18.3046 0.750001 15.9952L0.750002 3.00481C0.750002 0.695408 3.25 -0.747967 5.25 0.406733L16.5 6.90193Z" fill="#F26F21"/>
         </svg>
         <h5>Kom kijken naar onze nieuwe stekjeskast en ruil mee!</h5>
-        <p>Heb jij een of meerdere plantenstekjes over en zou je die graag willen ruilen voor een nieuw plantje? Meld je stekje hier aan en ruil ‘m via de app.</p> 
+        <p>Heb jij een of meerdere plantenstekjes over en zou je die graag willen <b>ruilen</b> voor een nieuw plantje? Meld je stekje hier aan en ruil ‘m via de app.</p> 
         <a href="/">Lees Meer</a>
     </section>
 
 <!-- Nieuwste Stekjes Container -->
     <section class="new-plants-contain" id="new-plants">
         <h3>Nieuwste Stekjes</h3>
-        <!-- forEach geprobeerd, maar kreeg error, dus even overgeslagen -->
-        <a href="/stek">Bekijk Meer</a>
-
         <% stekjes.forEach(stekje => { %>
             <div class="flex-wrapper-cards-stek">
                 <div class="flex-wrapper-stekjes-stek">
@@ -28,13 +25,11 @@
                     <% }else{ %>
                         <img src="/assets/default-stekje.jpg">
                     <% } %>
-
-
                         <p> <%= stekje.naam %> </p>
-
                 </div>
             </div>
         <% }) %>
+        <a href="/stek">Bekijk Meer</a>
     </section>
 
 <!-- Over PlantSwap Container -->
