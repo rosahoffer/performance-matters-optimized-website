@@ -9,20 +9,40 @@
     <script src="/scripts/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Murecho:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Murecho:wght@900&display=swap"
+          rel="stylesheet">
 </head>
 <body>
-    <section class="nav-bar">
+
+<section class="nav-bar">
+
+    <div id="myNav" class="overlay">
         <nav>
-            <img src="assets/plantswap-logo-green-small.png" alt="Logo PlantSwap">
+            <a href="/"><img src="assets/plantswap-logo-green-small.png" alt="Logo PlantSwap"></a>
+
+
+            <input type="checkbox" id="active">
+            <label for="active" class="menu-btn"><svg width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="3" rx="1.5" fill="white"/>
+                    <rect y="10.5" width="24" height="3" rx="1.5" fill="white"/>
+                    <rect y="5.25" width="24" height="3" rx="1.5" fill="white"/>
+                </svg>
+            </label>
+
+            <div class="wrapper">
             <ul>
-                <li><a href="/stek">Stek</a></li>
-                <li><a href="/evenementen">Evenementen</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/stek">Stekjes</a></li>
+                <li><a href="/evenementen">Events</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/">Log In</a></li>
-            </ul>   
+            </ul>
+            </div>
+
         </nav>
-    </section>
+    </div>
+
+</section>
 
 
 
