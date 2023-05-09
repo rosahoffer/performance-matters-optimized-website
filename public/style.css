@@ -362,8 +362,63 @@ input[type="checkbox"]{
     font-weight: bold;
 }
 
+.contact-us-contain h4{
+    padding-top: 2rem;
+}
+
 .contact-form{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.contact-form label{
+    padding: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.contact-form input{
+   border-radius: 25px;
+   padding: 0.5rem; 
+   border: 2px solid var(--primary);
+   font-size: 1rem;
+   font-family: 'Mulish', sans-serif;
+   line-height: 1.4;
+   font-weight: 100;
+}
+
+.contact-form input:last-of-type{
+    padding: 1rem 8rem 8rem 1rem;
+    margin-bottom: 2rem;
+}
+
+#send-button{
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+    margin: 0 auto;
+    background-color: var(--secondary);
+    color: white;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    border-radius: 25px;
+    border: 2px solid var(--secondary);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    transition: 0.5s;
+}
+
+.location-plantswap-contain{
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--background-color);
 }
