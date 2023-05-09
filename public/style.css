@@ -425,49 +425,21 @@ input[type="checkbox"] {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-.contact-form {
-=======
+
+
+
 .contact-us-contain h4{
     padding-top: 2rem;
 }
 
 .contact-form{
->>>>>>> 36c297fe35d7031b4866757096dc65a838d8d2ee
+
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-/* -------------------------- FOOTER --------------------------  */
-#footer {
-    width: 100vw;
-    height: 100px;
-    background-color: var(--primary);
-}
 
-h8 {
-    font-size: 0.8rem;
-    color: white;
-}
-
-.flex-wrapper-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding-top: 1.2rem;
-}
-
-.flex-container-footer p {
-    color: white;
-}
-
-.flex-container-footer {
-    display: flex;
-    flex-direction: row;
-=======
 .contact-form label{
     padding: 1rem;
     color: var(--primary);
@@ -728,9 +700,9 @@ h8 {
 
 }
 
-@media (min-width:80rem){
+@media (min-width:80rem) {
 
-    nav img{
+    nav img {
         margin-left: 13rem;
     }
 
@@ -738,99 +710,125 @@ h8 {
         font-size: 5rem;
         line-height: 5rem;
     }
-    
+
     h2 {
         font-size: 5rem;
         line-height: 5rem;
     }
-    
+
     h3 {
         font-size: 4rem;
         line-height: 4rem;
     }
-    
+
     h4 {
         font-size: 1.8rem;
     }
-    
+
     h5 {
         font-size: 1.6rem;
         line-height: 2.2rem;
     }
-    
+
     p {
         font-size: 1.4rem;
         line-height: 2.2rem;
     }
 
     /* HOME PAGE desktop*/
-    
-    .intro-contain{
+    .intro-contain {
         padding: 5rem 13rem 15rem 13rem;
         background-image: url("/assets/bg-homepage-desktop.png");
     }
 
-    .intro-contain h1{
+    .intro-contain h1 {
         max-width: 5rem;
     }
 
-    .intro-contain svg{
+    .intro-contain svg {
         left: 12%;
         top: 54%;
     }
 
-    .about-contain{
+    .about-contain {
         padding: 5rem 15rem 8rem 15rem;
     }
 
-    .about-contain img{
+    .about-contain img {
         padding: 0rem 13rem 0rem 13rem;
     }
 
     /* CONTACT PAGE desktop */
-
-    .intro-contact-contain{
+    .intro-contact-contain {
         position: relative;
         padding: 5rem 13rem 25rem 13rem;
     }
 
-    .intro-contact-contain h2{
+    .intro-contact-contain h2 {
         max-width: 30rem;
     }
 
-    .intro-contact-contain svg{
+    .intro-contact-contain svg {
         left: 12%;
         top: 41%;
     }
 
-    .intro-contact-contain img{
+    .intro-contact-contain img {
         position: absolute;
         bottom: 0;
         right: 10%;
         width: 50%;
     }
 
-    .contact-us-contain{
+    .contact-us-contain {
         padding: 5rem 15rem 8rem 15rem;
     }
 
-    .contact-form{
+    .contact-form {
         padding: 0rem 15rem 0rem 15rem;
     }
 
-    .contact-form input{
+    .contact-form input {
         font-size: 1.1rem;
         padding: 0.7rem;
     }
 
-    .location-plantswap-contain{
+    .location-plantswap-contain {
         padding: 5rem 15rem 10rem 15rem;
     }
 
-    .google-location-iframe{
+    .google-location-iframe {
         width: 60%;
     }
-
-
->>>>>>> 36c297fe35d7031b4866757096dc65a838d8d2ee
 }
+
+/* -------------------------- FOOTER --------------------------  */
+#footer {
+    width: 100vw;
+    height: 100px;
+    background-color: var(--primary);
+}
+
+h8 {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.flex-wrapper-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.2rem;
+}
+
+.flex-container-footer p {
+    color: white;
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+
