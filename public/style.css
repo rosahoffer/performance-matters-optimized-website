@@ -77,7 +77,7 @@ nav img {
 }
 
 /* SECOND CIRCLE*/
-.wrapper{
+.wrapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -91,12 +91,12 @@ nav img {
     z-index: 1;
 }
 
-#active:checked ~ .wrapper{
+#active:checked ~ .wrapper {
     clip-path: circle(75%);
 }
 
 /* FIRST CIRCLE */
-.menu-btn{
+.menu-btn {
     position: absolute;
     z-index: 2;
     right: 35px;
@@ -115,7 +115,7 @@ nav img {
     transition: all 0.3s ease-in-out;
 }
 
-.wrapper ul{
+.wrapper ul {
     position: absolute;
     top: 50%;
     left: 45%;
@@ -124,11 +124,11 @@ nav img {
     text-align: center;
 }
 
-.wrapper ul li{
+.wrapper ul li {
     margin: 15px 0;
 }
 
-.wrapper ul li a{
+.wrapper ul li a {
     text-decoration: none;
     font-size: 1rem;
     color: #fff;
@@ -137,7 +137,7 @@ nav img {
     transition: all 0.3s ease;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     display: none;
 }
 
@@ -150,17 +150,17 @@ input[type="checkbox"]{
     background-color: var(--background-color);
 }
 
-.intro-contain svg{
+.intro-contain svg {
     position: absolute;
     width: 0.8rem;
     left: 1rem;
 }
 
-.intro-contain h5{
+.intro-contain h5 {
     max-width: 15rem;
 }
 
-.intro-contain p{
+.intro-contain p {
     padding-bottom: 1rem;
 }
 
@@ -209,7 +209,7 @@ input[type="checkbox"]{
     transition: 0.5s;
 }
 
-.flex-wrapper-cards-stek{
+.flex-wrapper-cards-stek {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,7 +223,7 @@ input[type="checkbox"]{
     margin-bottom: 3rem;
 }
 
-.flex-wrapper-stekjes-stek p{
+.flex-wrapper-stekjes-stek p {
     margin-top: -2rem;
     margin-bottom: 4rem;
     text-align: center;
@@ -248,7 +248,7 @@ input[type="checkbox"]{
 }
 
 /* -------------------------- STEKJES PAGE --------------------------  */
-.body-stekjes{
+.body-stekjes {
     background-color: var(--background-color);
 }
 
@@ -259,7 +259,7 @@ input[type="checkbox"]{
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .main-stekjes-ejs  {
+    .main-stekjes-ejs {
         background-size: 100%;
         background-position-x: 130px;
     }
@@ -267,7 +267,7 @@ input[type="checkbox"]{
 
 /*SECTION 1 INTRO STEKJES */
 #intro-swap-stek {
-    height: 500px;
+    height: 400px;
     margin-top: 7rem;
 }
 
@@ -290,7 +290,11 @@ input[type="checkbox"]{
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    #intro-swap-stek p  {
+    #intro-swap-stek {
+        height: 500px;
+    }
+
+    #intro-swap-stek p {
         width: 18rem;
     }
 }
@@ -298,7 +302,7 @@ input[type="checkbox"]{
 /* SECTION 2 BESCHIKBARE STEKJES */
 #available-stekjes {
     background-color: white;
-   padding-top: 7rem;
+    padding-top: 7rem;
 }
 
 #available-stekjes h2 {
@@ -326,6 +330,12 @@ input[type="checkbox"]{
     border-radius: 5px;
 }
 
+.flex-wrapper-stekjes-stek-page h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .blur-container p {
     font-size: var(--p-fontsize);
     text-align: center;
@@ -333,26 +343,31 @@ input[type="checkbox"]{
 }
 
 
-
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .flex-wrapper-cards-stek-page{
+    .flex-wrapper-cards-stek-page {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        overflow-x: scroll;
         justify-content: space-between;
-
+        padding-left: 3rem;
+        padding-bottom: 5rem;
     }
 
-    .flex-wrapper-stekjes-stek-page{
-        flex-basis: 50%;
-        padding: 30px;
+    .flex-wrapper-stekjes-stek-page {
+        display: flex;
+        flex-direction: column;
+        padding-right: 3rem;
+    }
+
+    .flex-wrapper-stekjes-stek-page h6 {
+        display: flex;
+        align-items: center;
         justify-content: center;
-        text-align: center;
 
     }
 
-    #available-stekjes h2  {
+    #available-stekjes h2 {
         width: 25rem;
     }
 
@@ -391,27 +406,431 @@ input[type="checkbox"]{
     background-color: var(--background-color);
 }
 
-.intro-contact-contain svg{
+.intro-contact-contain svg {
     position: absolute;
     left: 1rem;
 }
 
-.intro-contact-contain img{
+.intro-contact-contain img {
     width: 80%;
 }
 
-.contact-us-contain{
+.contact-us-contain {
     padding: 3rem;
     text-align: center;
 }
 
-.contact-us-contain a{
+.contact-us-contain a {
     color: var(--p-color);
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+.contact-form {
+=======
+.contact-us-contain h4{
+    padding-top: 2rem;
+}
+
 .contact-form{
+>>>>>>> 36c297fe35d7031b4866757096dc65a838d8d2ee
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+<<<<<<< HEAD
+/* -------------------------- FOOTER --------------------------  */
+#footer {
+    width: 100vw;
+    height: 100px;
+    background-color: var(--primary);
+}
+
+h8 {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.flex-wrapper-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1.2rem;
+}
+
+.flex-container-footer p {
+    color: white;
+}
+
+.flex-container-footer {
+    display: flex;
+    flex-direction: row;
+=======
+.contact-form label{
+    padding: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.contact-form input{
+   border-radius: 25px;
+   padding: 0.5rem; 
+   border: 2px solid var(--primary);
+   font-size: 1rem;
+   font-family: 'Mulish', sans-serif;
+   line-height: 1.4;
+   font-weight: 100;
+}
+
+.contact-form input:last-of-type{
+    padding: 1rem 8rem 8rem 1rem;
+    margin-bottom: 2rem;
+}
+
+#send-button{
+    display: flex;
+    justify-content: center;
+    max-width: 10rem;
+    margin: 0 auto;
+    background-color: var(--secondary);
+    color: white;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
+    border-radius: 25px;
+    border: 2px solid var(--secondary);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    transition: 0.5s;
+}
+
+.location-plantswap-contain{
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.google-location-iframe{
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 3px 3px grey;
+}
+
+
+
+/* -------------------------- BREAKPOINTS --------------------------  */
+
+@media (min-width:40rem){
+
+    nav img {
+        margin-left: 5rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+    
+    h2 {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    h4 {
+        font-size: 1.2rem;
+    }
+    
+    h5 {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    /* HOME PAGE tablet*/
+    
+    .intro-contain{
+        padding: 5rem 5rem 15rem 5rem;
+        background-size: 100%;
+    }
+
+    .intro-contain svg{
+        left: 9%;
+        top: 41%;
+    }
+
+    .intro-contain p{
+        max-width: 15rem;
+    }
+
+    .location-plantswap-contain{
+        padding: 5rem;
+    }
+
+    .google-location-iframe{
+        width: 80%;
+        margin-top: 3rem;
+    }
+
+    /* CONTACT PAGE tablet */
+
+    .intro-contact-contain{
+        padding: 5rem 5rem 0rem 5rem;
+        background-size: 100%;
+    }
+
+    .intro-contact-contain svg{
+        left: 9%;
+        top: 41%;
+    }
+
+    .intro-contact-contain p{
+        max-width: 15rem;
+    }
+
+    .intro-contact-contain img{
+        margin-left: 7rem;
+    }
+
+    .contact-us-contain{
+        padding: 5rem;
+    }
+
+}
+
+@media (min-width:65rem){
+
+    nav img{
+        margin-left: 8rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    h3 {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+    
+    h4 {
+        font-size: 1.6rem;
+    }
+    
+    h5 {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    /* HOME PAGE groot tablet*/
+    
+    .intro-contain{
+        padding: 5rem 8rem 20rem 8rem;
+        background-image: url("/assets/bg-homepage-desktop.png");
+    }
+
+    .intro-contain h1{
+        max-width: 5rem;
+    }
+
+    .intro-contain svg{
+        left: 9%;
+        top: 46.5%;
+    }
+
+    .intro-contain h5{
+        max-width: 25rem;
+    }
+
+    .intro-contain p{
+        max-width: 30rem;
+    }
+
+    .about-contain{
+        padding: 8rem
+    }
+
+    .about-contain img{
+        padding: 0rem 10rem 0rem 10rem;
+    }
+
+    /* CONTACT PAGE groot tablet */
+
+    .intro-contact-contain{
+        padding: 5rem 8rem 0rem 8rem;
+        background-size: 100%;
+    }
+
+    .intro-contact-contain h2{
+        max-width: 30rem;
+    }
+
+    .intro-contact-contain svg{
+        left: 9%;
+        top: 52%;
+    }
+
+    .intro-contact-contain p{
+        max-width: 30rem;
+    }
+
+    .intro-contact-contain img{
+        padding-left: 10rem;
+        margin-left: 7rem;
+        padding-bottom: 0;
+    }
+
+    .contact-us-contain{
+        padding: 8rem;
+    }
+
+    .contact-form{
+        padding: 0rem 10rem 0rem 10rem;
+    }
+
+    .contact-form label{
+        font-size: 1.3rem;
+        padding: 2rem;
+    }
+
+    .location-plantswap-contain{
+        padding: 8rem;
+    }
+
+}
+
+@media (min-width:80rem){
+
+    nav img{
+        margin-left: 13rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    
+    h2 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    
+    h3 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    h4 {
+        font-size: 1.8rem;
+    }
+    
+    h5 {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    
+    p {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    /* HOME PAGE desktop*/
+    
+    .intro-contain{
+        padding: 5rem 13rem 15rem 13rem;
+        background-image: url("/assets/bg-homepage-desktop.png");
+    }
+
+    .intro-contain h1{
+        max-width: 5rem;
+    }
+
+    .intro-contain svg{
+        left: 12%;
+        top: 54%;
+    }
+
+    .about-contain{
+        padding: 5rem 15rem 8rem 15rem;
+    }
+
+    .about-contain img{
+        padding: 0rem 13rem 0rem 13rem;
+    }
+
+    /* CONTACT PAGE desktop */
+
+    .intro-contact-contain{
+        position: relative;
+        padding: 5rem 13rem 25rem 13rem;
+    }
+
+    .intro-contact-contain h2{
+        max-width: 30rem;
+    }
+
+    .intro-contact-contain svg{
+        left: 12%;
+        top: 41%;
+    }
+
+    .intro-contact-contain img{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        width: 50%;
+    }
+
+    .contact-us-contain{
+        padding: 5rem 15rem 8rem 15rem;
+    }
+
+    .contact-form{
+        padding: 0rem 15rem 0rem 15rem;
+    }
+
+    .contact-form input{
+        font-size: 1.1rem;
+        padding: 0.7rem;
+    }
+
+    .location-plantswap-contain{
+        padding: 5rem 15rem 10rem 15rem;
+    }
+
+    .google-location-iframe{
+        width: 60%;
+    }
+
+
+>>>>>>> 36c297fe35d7031b4866757096dc65a838d8d2ee
 }
