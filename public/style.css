@@ -471,6 +471,13 @@ input[type="checkbox"]{
     background-color: var(--background-color);
 }
 
+.google-location-iframe{
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: 5px 3px 3px grey;
+}
+
 
 
 /* -------------------------- BREAKPOINTS --------------------------  */
@@ -524,6 +531,15 @@ input[type="checkbox"]{
 
     .intro-contain p{
         max-width: 15rem;
+    }
+
+    .location-plantswap-contain{
+        padding: 5rem;
+    }
+
+    .google-location-iframe{
+        width: 80%;
+        margin-top: 3rem;
     }
 
     /* CONTACT PAGE tablet */
@@ -702,7 +718,7 @@ input[type="checkbox"]{
     /* HOME PAGE desktop*/
     
     .intro-contain{
-        padding: 5rem 13rem 25rem 13rem;
+        padding: 5rem 13rem 15rem 13rem;
         background-image: url("/assets/bg-homepage-desktop.png");
     }
 
@@ -712,7 +728,7 @@ input[type="checkbox"]{
 
     .intro-contain svg{
         left: 12%;
-        top: 48%;
+        top: 54%;
     }
 
     .about-contain{
@@ -760,7 +776,12 @@ input[type="checkbox"]{
     }
 
     .location-plantswap-contain{
-        padding: 5rem 15rem 5rem 15rem;
+        padding: 5rem 15rem 10rem 15rem;
     }
+
+    .google-location-iframe{
+        width: 60%;
+    }
+
 
 }
