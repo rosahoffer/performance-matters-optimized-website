@@ -703,6 +703,9 @@ input[type="checkbox"] {
 @media (min-width:80rem) {
 
     nav img {
+@media (min-width:80rem){
+
+    nav img{
         margin-left: 13rem;
     }
 
@@ -725,6 +728,11 @@ input[type="checkbox"] {
         font-size: 1.8rem;
     }
 
+    
+    h4 {
+        font-size: 1.8rem;
+    }
+    
     h5 {
         font-size: 1.6rem;
         line-height: 2.2rem;
@@ -737,6 +745,8 @@ input[type="checkbox"] {
 
     /* HOME PAGE desktop*/
     .intro-contain {
+    
+    .intro-contain{
         padding: 5rem 13rem 15rem 13rem;
         background-image: url("/assets/bg-homepage-desktop.png");
     }
@@ -746,6 +756,11 @@ input[type="checkbox"] {
     }
 
     .intro-contain svg {
+    .intro-contain h1{
+        max-width: 5rem;
+    }
+
+    .intro-contain svg{
         left: 12%;
         top: 54%;
     }
@@ -755,11 +770,18 @@ input[type="checkbox"] {
     }
 
     .about-contain img {
+    .about-contain{
+        padding: 5rem 15rem 8rem 15rem;
+    }
+
+    .about-contain img{
         padding: 0rem 13rem 0rem 13rem;
     }
 
     /* CONTACT PAGE desktop */
     .intro-contact-contain {
+
+    .intro-contact-contain{
         position: relative;
         padding: 5rem 13rem 25rem 13rem;
     }
@@ -769,11 +791,17 @@ input[type="checkbox"] {
     }
 
     .intro-contact-contain svg {
+    .intro-contact-contain h2{
+        max-width: 30rem;
+    }
+
+    .intro-contact-contain svg{
         left: 12%;
         top: 41%;
     }
 
     .intro-contact-contain img {
+    .intro-contact-contain img{
         position: absolute;
         bottom: 0;
         right: 10%;
@@ -789,6 +817,15 @@ input[type="checkbox"] {
     }
 
     .contact-form input {
+    .contact-us-contain{
+        padding: 5rem 15rem 8rem 15rem;
+    }
+
+    .contact-form{
+        padding: 0rem 15rem 0rem 15rem;
+    }
+
+    .contact-form input{
         font-size: 1.1rem;
         padding: 0.7rem;
     }
@@ -832,3 +869,13 @@ h8 {
 }
 
 
+    .location-plantswap-contain{
+        padding: 5rem 15rem 10rem 15rem;
+    }
+
+    .google-location-iframe{
+        width: 60%;
+    }
+
+
+}
