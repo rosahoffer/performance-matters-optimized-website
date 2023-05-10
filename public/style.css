@@ -934,7 +934,7 @@ h8 {
   
     }
     .slides::-webkit-scrollbar-thumb {
-      background: orange;
+      background: var(--secondary);
       border-radius: 10px;
     }
     .slides::-webkit-scrollbar-track {
@@ -1028,7 +1028,7 @@ h8 {
         width: 1rem;
         height: 1rem;
         border-radius: 50%;
-        border: 1px solid blue;
+        border: 1px solid var(--secondary);
         margin: .5rem;
         
       }
@@ -1039,15 +1039,15 @@ h8 {
       }
     
       #item-1:checked + span {
-        background: blue;
+        background: var(--secondary);
       }
     
       #item-2:checked + span{
-        background-color: blue;
+        background-color: var(--secondary);
       }
     
       #item-3:checked + span{
-        background-color: blue;
+        background-color: var(--secondary);
       }
     
     .buttons{
