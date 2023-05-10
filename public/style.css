@@ -832,7 +832,7 @@ input[type="checkbox"] {
 /* -------------------------- FOOTER --------------------------  */
 
 #footer {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     background-color: var(--primary);
 }
@@ -859,3 +859,246 @@ h8 {
     flex-direction: row;
 }
 
+/*----------------------- Event page Demi ------------------*/
+.event-container{
+    display: none;
+}
+
+.workshop-header{
+    position: relative;
+    text-align: center;
+  }
+  .event-header{
+    position: relative;
+    text-align: center;
+  }
+  
+    .slider {
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+      margin-top: 5rem;
+    }
+    .slides {
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      gap: 8rem;
+      background-color: white;
+    }
+    .slides::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+  
+    }
+    .slides::-webkit-scrollbar-thumb {
+      background: orange;
+      border-radius: 10px;
+    }
+    .slides::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .slides > div {
+      scroll-snap-align: start;
+      flex-shrink: 0;
+      width: 300px;
+      height: 300px;
+      margin-right: 50px;
+      border-radius: 10px;
+      transform-origin: center center;
+      transform: scale(1);
+      transition: transform 0.5s;
+      position: relative;
+      display: flex;
+    }
+    .slider > a {
+      display: inline-flex;
+      width: 1.5rem;
+      height: 1.5rem;
+      text-decoration: none;
+      justify-content: center;
+      margin-top: 1rem;
+      position: relative;
+      color: var(--p-color);
+    }
+    
+
+  
+    .event-img{
+        width: 100%;
+          height: 100%;
+          border-radius: 10px;
+      }
+    .event-info{
+        margin-left: 1rem;
+    }
+    .event-title{
+        text-align: center;
+    }
+  
+/* media query */
+@media (min-width:65rem){
+    .card {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+       margin: auto;
+        display: flex;
+        transition: transform .4s ease;
+        cursor: pointer;
+        padding: 5rem;
+      
+      }
+      
+      .event-container {
+        width: 100%;
+        max-width: 800px;
+        max-height: 800px;
+        height: 100%;
+        transform-style: preserve-3d;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    
+      }
+      
+      .cards {
+        position: relative;
+        width: 100%;
+        height: 40rem;
+        margin-bottom: 20px;
+        left: 1rem;
+        
+      }
+      
+      .card-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+    
+    
+      input + span{
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        border: 1px solid blue;
+        margin: .5rem;
+        
+      }
+    
+      #item-1, #item-2, #item-3 {
+        position: absolute;
+        left: -9999px;
+      }
+    
+      #item-1:checked + span {
+        background: blue;
+      }
+    
+      #item-2:checked + span{
+        background-color: blue;
+      }
+    
+      #item-3:checked + span{
+        background-color: blue;
+      }
+    
+    .buttons{
+      display: flex;
+      position: relative;
+      left: 50%;
+      transform: translate(-5%,-50%);
+      top: 40rem;
+    }
+    
+     /* wat  betekent ~? */
+      /* ~ is een sibling selector, alle elementen op dezelfde hoogte zijn siblings*/
+      .buttons:has(#item-1:checked) ~ .cards #event-3, .buttons:has(#item-2:checked) ~ .cards #event-1, .buttons:has(#item-3:checked) ~ .cards #event-2 {
+        transform: translatex(-40%) scale(.8);
+        opacity: .4;
+        z-index: 0;
+      }
+      
+      .buttons:has(#item-1:checked) ~ .cards #event-2, .buttons:has(#item-2:checked) ~ .cards #event-3, .buttons:has(#item-3:checked) ~ .cards #event-1 {
+        transform: translatex(40%) scale(.8);
+        opacity: .4;
+        z-index: 0;
+      }
+      
+      .buttons:has(#item-1:checked) ~ .cards #event-1, .buttons:has(#item-2:checked) ~ .cards #event-2, .buttons:has(#item-3:checked)  ~ .cards #event-3 {
+        transform: translatex(0) scale(1);
+        opacity: 1;
+        z-index: 1;
+      }
+
+      /* slider */
+    .slider{
+        display: none;
+    }
+    .slides{
+        display: none;
+    }
+
+    /* evenementen collage */
+
+    .event-page{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vw;
+        padding: 0;
+        margin: 0rem 15rem 5rem 15rem;
+        width: 80vw;
+        
+      }
+      
+      .event-img{
+        width: 100%;
+          height: 100%;
+          border-radius: 10px;
+          object-fit: cover;
+      }
+      
+      .event {
+        height: 30vw;
+      }
+      
+      /* 4n = de 4 staat voor de hoeveelheid items en de n is een standaard variabel. Op deze manier ontstaat er een loop */
+      .event:nth-child(4n + 1 ) {
+        width: 40vw;
+        height: 25vw;
+      }
+      
+      .event:nth-child(4n + 2){
+        width: 25vw;
+        height: 20vw;
+        align-self: flex-end;
+      }
+      
+      .event:nth-child(4n + 3){
+        width: 20vw;
+        height: 20vw;
+        margin-top: 2vw;
+        margin-left: 15vw;
+      }
+      
+      .event:nth-child(4n + 4){
+        width: 40vw;
+        height: 40vw;
+      }
+
+      .event-title{
+        display: none;
+      }
+
+      .event-info{
+        display: none;
+      }
+}
