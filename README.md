@@ -1,7 +1,7 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Plantswap - Buurtcampus-Oost
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Een website gemaakt voor PlantSwap Amsterdam, met als doel om buurtbewoners van Amsterdam-Oost bij elkaar te kunnen krijgen in de OBA.
+
+![plantswap-performance-tablet_laptop_and_smartphone_mockup](https://github.com/joelle78/performance-matters-optimized-website/assets/112861375/c6ef207b-8881-40fc-9d47-39cacba36306)
 
 ## Inhoudsopgave
 
@@ -13,20 +13,32 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De website is ontworpen om de gemeenschap van Amsterdam-Oost samen te brengen door middel van plantenruil. Door buurtbewoners aan te moedigen om hun stekjes te ruilen in de bibliotheek, kunnen mensen nieuwe planten ontdekken, hun tuin of huis opvrolijken en nieuwe connecties maken met andere groenliefhebbers in de buurt. De website biedt informatie over eventuele workshops, stekjes bekijken en informatie vinden over PlantSwap Amsterdam.
 
 ## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+**User-story's waar aan gewerkt is:**
+
+* Als buurtbewoner wil ik zien wanneer er een workshop is en hoe ik die kan bijwonen
+* Als buurtbewoner wil ik een directe link met een routebeschrijving naar de desbetreffende locatie
+* Als buurtbewoner wil ik informatie vinden over het verzorgen van planten zodat ik niet steeds nieuwe planten hoef te kopen en daarmee verspilling tegen ga
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+Gebruik gemaakt van HTML CSS EJS Express en Node.
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+
+**Om deze repository te installeren, volg je deze stappen:**
+
+1. Klik op de groene knop "Code" en kopieer de URL van de repository.
+2. Open een terminalvenster op je computer en navigeer naar de locatie waar je de repository wilt installeren.
+3. Typ "git clone" gevolgd door de URL die je hebt gekopieerd en druk op Enter.
+4. De repository wordt nu gekloond naar de opgegeven locatie op je computer. 
 
 ## Bronnen
+
+**Gebruik gemaakt van deze bronnen:**
+
+Voor het maken van de navigatie  | https://www.youtube.com/watch?v=wjkvYWSVpCY&list=PLCZenorUiGvLyQNAxDmoN5M6OoJjGZQEH&index=11&t=30s
 
 ## Licentie
 
