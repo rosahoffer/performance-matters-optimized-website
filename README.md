@@ -28,9 +28,19 @@ De website is ontworpen om de gemeenschap van Amsterdam-Oost samen te brengen do
 Gebruik gemaakt van HTML CSS EJS Express en Node.
 
 ## Installatie
-Fork de 
+
+**Om deze repository te installeren, volg je deze stappen:**
+
+1. Klik op de groene knop "Code" en kopieer de URL van de repository.
+2. Open een terminalvenster op je computer en navigeer naar de locatie waar je de repository wilt installeren.
+3. Typ "git clone" gevolgd door de URL die je hebt gekopieerd en druk op Enter.
+4. De repository wordt nu gekloond naar de opgegeven locatie op je computer. 
 
 ## Bronnen
+
+Gebruik gemaakt van deze bronnen:
+
+Voor het maken van de navigatie: https://www.youtube.com/watch?v=wjkvYWSVpCY&list=PLCZenorUiGvLyQNAxDmoN5M6OoJjGZQEH&index=11&t=30s
 
 ## Licentie
 
