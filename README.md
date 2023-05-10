@@ -18,13 +18,17 @@ Een website gemaakt voor PlantSwap Amsterdam, met als doel om buurtbewoners van 
 De website is ontworpen om de gemeenschap van Amsterdam-Oost samen te brengen door middel van plantenruil. Door buurtbewoners aan te moedigen om hun stekjes te ruilen in de bibliotheek, kunnen mensen nieuwe planten ontdekken, hun tuin of huis opvrolijken en nieuwe connecties maken met andere groenliefhebbers in de buurt. De website biedt informatie over eventuele workshops, stekjes bekijken en informatie vinden over PlantSwap Amsterdam.
 
 ## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+**User-story's waar aan gewerkt is:**
+
+* Als buurtbewoner wil ik zien wanneer er een workshop is en hoe ik die kan bijwonen
+* Als buurtbewoner wil ik een directe link met een routebeschrijving naar de desbetreffende locatie
+* Als buurtbewoner wil ik informatie vinden over het verzorgen van planten zodat ik niet steeds nieuwe planten hoef te kopen en daarmee verspilling tegen ga
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+Gebruik gemaakt van HTML CSS EJS Express en Node.
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+Fork de 
 
 ## Bronnen
 
