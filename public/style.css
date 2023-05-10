@@ -867,15 +867,3 @@ h8 {
     display: flex;
     flex-direction: row;
 }
-
-
-    .location-plantswap-contain{
-        padding: 5rem 15rem 10rem 15rem;
-    }
-
-    .google-location-iframe{
-        width: 60%;
-    }
-
-
-}
