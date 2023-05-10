@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Plant swap</title>
+    <meta name="testing" content="page to test" />
+    <meta name="Demi" content="SitePoint" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="nav-bar">
+      <nav>
+        <ul class="nav-bar-items">
+          <li>
+            <img
+              src="assets/plantswap-logo-green-small.png"
+              alt="Logo PlantSwap"
+            />
+          </li>
+          <li><a href="/stekjes">Stekjes</a></li>
+          <li><a href="/evenementen">Evenementen</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/">Log In</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <div class="container">
+      <h2>Evenementen</h2>
+      <!-- checked kan je alleen toevoegen aan type radio en type checkbox -->
+      <!-- input type kan niet gestyled worden daarom staat er een span achter -->
+      <div class="buttons">
+        <input type="radio" name="slider" id="item-1" checked /><span></span>
+
+        <input type="radio" name="slider" id="item-2" /><span></span>
+
+        <input type="radio" name="slider" id="item-3" /><span></span>
+      </div>
+
+      <div class="cards">
+        <label class="card" for="item-1" id="event-1">
+          <img
+            src="https://images.unsplash.com/photo-1485546784815-e380f3297414?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="workshop"
+          />
+        </label>
+
+        <label class="card" for="item-2" id="event-2">
+          <img
+            src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+            alt="workshop"
+          />
+        </label>
+
+        <label class="card" for="item-3" id="event-3">
+          <img
+            src="https://images.unsplash.com/photo-1606048005590-ac109542b311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxhbnQlMjB3b3Jrc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="workshop"
+          />
+        </label>
+      </div>
+    </div>
+    <!-- start mobile slideshow -->
+
+    <div class="slider">
+      <a href="#slide-1">1</a>
+      <a href="#slide-2">2</a>
+      <a href="#slide-3">3</a>
+      <a href="#slide-4">4</a>
+      <a href="#slide-5">5</a>
+      <div class="slides">
+        <div id="slide-1">
+          <img
+            src="https://images.unsplash.com/photo-1606048005590-ac109542b311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxhbnQlMjB3b3Jrc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+        <div id="slide-2">
+          <img
+            src="https://images.unsplash.com/photo-1606048005590-ac109542b311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxhbnQlMjB3b3Jrc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+        <div id="slide-3">
+          <img
+            src="https://images.unsplash.com/photo-1606048005590-ac109542b311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxhbnQlMjB3b3Jrc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+        <div id="slide-4">
+          <img
+            src="https://images.unsplash.com/photo-1606048005590-ac109542b311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxhbnQlMjB3b3Jrc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+        <div id="slide-5">
+          <img
+            src="https://images.unsplash.com/photo-1606048005590-ac109542b311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxhbnQlMjB3b3Jrc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- workshops -->
+    <h2 class="workshop-title">Workshops</h2>
+    <section class="event-page">
+      <div class="event">
+        <img
+          src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+      </div>
+      <div class="event">
+        <img
+          src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+      </div>
+      <div class="event">
+        <img
+          src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+      </div>
+      <div class="event">
+        <img
+          src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          alt=""
+        />
+      </div>
+      <!-- <div class="event"><img src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" /></ class="event">
+        <div class="event"><img src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" /></div>
+        <div class="event"><img src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" /></div>
+        <div class="event"><img src="https://images.unsplash.com/photo-1417037129170-06a2750eaa47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" /></div>
+       -->
+    </section>
+  </body>
+</html>
