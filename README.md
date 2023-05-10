@@ -38,7 +38,7 @@ Gebruik gemaakt van HTML CSS EJS Express en Node.
 
 Gebruik gemaakt van deze bronnen:
 
-Voor het maken van de navigatie: https://www.youtube.com/watch?v=wjkvYWSVpCY&list=PLCZenorUiGvLyQNAxDmoN5M6OoJjGZQEH&index=11&t=30s
+Voor het maken van de navigatie  | https://www.youtube.com/watch?v=wjkvYWSVpCY&list=PLCZenorUiGvLyQNAxDmoN5M6OoJjGZQEH&index=11&t=30s
 
 ## Licentie
 
