@@ -1,7 +1,9 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Plantswap - Buurtcampus-Oost
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Een website gemaakt voor PlantSwap Amsterdam, met als doel om buurtbewoners van Amsterdam-Oost bij elkaar te kunnen krijgen in de OBA.
+
+![plantswap-performance-tablet_laptop_and_smartphone_mockup](https://github.com/joelle78/performance-matters-optimized-website/assets/112861375/c6ef207b-8881-40fc-9d47-39cacba36306)
 
 ## Inhoudsopgave
 
