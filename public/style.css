@@ -700,9 +700,7 @@ input[type="checkbox"] {
 
 }
 
-@media (min-width:80rem) {
 
-    nav img {
 @media (min-width:80rem){
 
     nav img{
@@ -745,8 +743,6 @@ input[type="checkbox"] {
 
     /* HOME PAGE desktop*/
     .intro-contain {
-    
-    .intro-contain{
         padding: 5rem 13rem 15rem 13rem;
         background-image: url("/assets/bg-homepage-desktop.png");
     }
@@ -755,7 +751,6 @@ input[type="checkbox"] {
         max-width: 5rem;
     }
 
-    .intro-contain svg {
     .intro-contain h1{
         max-width: 5rem;
     }
@@ -770,7 +765,6 @@ input[type="checkbox"] {
     }
 
     .about-contain img {
-    .about-contain{
         padding: 5rem 15rem 8rem 15rem;
     }
 
@@ -779,7 +773,6 @@ input[type="checkbox"] {
     }
 
     /* CONTACT PAGE desktop */
-    .intro-contact-contain {
 
     .intro-contact-contain{
         position: relative;
@@ -790,7 +783,6 @@ input[type="checkbox"] {
         max-width: 30rem;
     }
 
-    .intro-contact-contain svg {
     .intro-contact-contain h2{
         max-width: 30rem;
     }
@@ -801,7 +793,6 @@ input[type="checkbox"] {
     }
 
     .intro-contact-contain img {
-    .intro-contact-contain img{
         position: absolute;
         bottom: 0;
         right: 10%;
@@ -816,7 +807,6 @@ input[type="checkbox"] {
         padding: 0rem 15rem 0rem 15rem;
     }
 
-    .contact-form input {
     .contact-us-contain{
         padding: 5rem 15rem 8rem 15rem;
     }
@@ -840,6 +830,7 @@ input[type="checkbox"] {
 }
 
 /* -------------------------- FOOTER --------------------------  */
+
 #footer {
     width: 100vw;
     height: 100px;
@@ -867,3 +858,4 @@ h8 {
     display: flex;
     flex-direction: row;
 }
+
