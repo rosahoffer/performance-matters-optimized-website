@@ -15,9 +15,7 @@ Een website gemaakt voor PlantSwap Amsterdam, met als doel om buurtbewoners van 
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De website is ontworpen om de gemeenschap van Amsterdam-Oost samen te brengen door middel van plantenruil. Door buurtbewoners aan te moedigen om hun stekjes te ruilen in de bibliotheek, kunnen mensen nieuwe planten ontdekken, hun tuin of huis opvrolijken en nieuwe connecties maken met andere groenliefhebbers in de buurt. De website biedt informatie over eventuele workshops, stekjes bekijken en informatie vinden over PlantSwap Amsterdam.
 
 ## Gebruik
 <!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
