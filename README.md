@@ -1,5 +1,3 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Plantswap - Buurtcampus-Oost
 Een website gemaakt voor PlantSwap Amsterdam, met als doel om buurtbewoners van Amsterdam-Oost bij elkaar te kunnen krijgen in de OBA.
 
